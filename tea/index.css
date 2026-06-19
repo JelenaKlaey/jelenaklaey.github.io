@@ -1,0 +1,41 @@
+*{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+header{
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: fixed;
+}
+.link{
+    display:inline-flex;
+    justify-content:right;
+    text-decoration:underline;
+}
+#Logo {
+    font-size: 50px;
+    padding: 10px;
+    text-align: left;
+    display: inline;
+}
+.mission{
+    text-align: center;
+    background-color: black;
+    opacity: 1;
+    display: inline-block;
+    position: relative;
+    top: -500px;
+    z-index: 1;
+    align-content: center;
+    width: 100%;
+}
+
+#mission-background{
+    width: auto;
+    height: 700px;
+    z-index: -1;
+}
