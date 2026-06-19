@@ -20,8 +20,9 @@ header img{
 }
 header h2{
     float: right;
-    padding: 10px;
+    padding-right: 10px;
     text-decoration:underline;
+    display: inline-block;
 }
 .mission{
     
@@ -42,18 +43,21 @@ header h2{
     z-index: -1;
 }
 main{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
+
     
 }
 .month{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
 }
 .month img{
     width: 300px;
-    height: 300px;
+    height: 200px;
     margin: 10px;
+}
+.title{
+    text-align: center;
+    
 }
