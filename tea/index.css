@@ -48,3 +48,7 @@ main{
     align-items: center;
     
 }
+.month{
+    display: flex;
+    flex-wrap: wrap;
+}
