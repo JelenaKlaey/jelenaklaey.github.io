@@ -19,7 +19,6 @@ header img{
     padding: 10px;
 }
 header h2{
-    float: right;
     padding-right: 10px;
     text-decoration:underline;
     display: inline-block;
@@ -42,9 +41,7 @@ header h2{
     height: 700px;
     z-index: -1;
 }
-main{
-    
-}
+
 .month{
     display: flex;
     justify-content: center;
@@ -64,19 +61,22 @@ main{
     display: inline-block;
     background-color: black;
     opacity: 1;
-    padding: 40px;
+    padding: 10px;
     width: 300px;
     height: 300px;
-    position:absolute;
     text-align: center;
+    margin: 10px;
+    border: 1px solid white;
     
 }
 .location img{
+    position:absolute;
     height: 500px;
     width: auto;
     z-index: -1;
 }
 .locations{
     display:flex;
-    position:relative;
+    flex-wrap: wrap;
+
 }
