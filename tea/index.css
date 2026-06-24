@@ -37,7 +37,7 @@ header h2{
 }
 
 #mission-background{
-    width: auto;
+    width: 1200px;
     height: 700px;
     z-index: -1;
 }
@@ -55,28 +55,37 @@ header h2{
 }
 .title{
     text-align: center;
+    z-index: 10;
     
 }
 #location-box{
     display: inline-block;
     background-color: black;
     opacity: 1;
-    padding: 10px;
     width: 300px;
     height: 300px;
     text-align: center;
-    margin: 10px;
+    margin: 15px 40px 0px 40px;
     border: 1px solid white;
-    
+    align-items: center;
+    position: static;
+
 }
-.location img{
-    position:absolute;
+.locations img{
+    position: static;
     height: 500px;
-    width: auto;
+    width: 1200px;
     z-index: -1;
 }
 .locations{
-    display:flex;
     flex-wrap: wrap;
-
+    left: 10px;
+    right: auto;
+    z-index: auto;
+}
+.adresses{
+    position: relative;
+    top: -500px;
+    opacity: 1;
+    background-color: transparent;
 }
