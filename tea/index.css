@@ -54,8 +54,10 @@ header h2{
     margin: 10px;
 }
 .title{
+    position: relative;
     text-align: center;
     z-index: 10;
+    background-color: transparent;
     
 }
 #location-box{
@@ -73,9 +75,11 @@ header h2{
 }
 .locations img{
     position: static;
+    object-fit: cover;
     height: 500px;
     width: 1200px;
     z-index: -1;
+
 }
 .locations{
     flex-wrap: wrap;
@@ -85,7 +89,14 @@ header h2{
 }
 .adresses{
     position: relative;
-    top: -500px;
+    top: -400px;
     opacity: 1;
     background-color: transparent;
+}
+footer{
+    position: relative;
+    top: -200px;
+}
+footer p{
+    text-align: left;
 }
